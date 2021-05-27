@@ -44,7 +44,7 @@ library(hare)
 ## Example
 
 ```{r}
-theme_set(theme_james)
+theme_set(theme_james())
 
 ggplot(mpg, aes(displ, hwy, colour = class)) +
   geom_point() +
