@@ -4,4 +4,5 @@
 #'
 #' @export
 theme_james <- ggplot2::theme_minimal() +
-  ggplot2::theme(legend.position = 'top')
+  ggplot2::theme(legend.position = 'top',
+                 text = ggplot2::element_text(family = 'Helvetica'))
