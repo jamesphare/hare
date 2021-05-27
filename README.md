@@ -32,8 +32,11 @@ more minimal version of `theme_minimal`.
 ``` r
 theme_set(theme_james)
 
-ggplot(mpg, aes(displ, hwy, colour = class)) + 
-  geom_point()
+ggplot(mpg, aes(displ, hwy, colour = class)) +
+  geom_point() +
+  labs(title = "Title",
+       subtitle = "Subtitle",
+       caption = "Source: GGPlot2")
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />

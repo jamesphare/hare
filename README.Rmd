@@ -46,7 +46,10 @@ Currently the only function in this package is `theme_james`, a slightly more mi
 ```{r}
 theme_set(theme_james)
 
-ggplot(mpg, aes(displ, hwy, colour = class)) + 
-  geom_point()
+ggplot(mpg, aes(displ, hwy, colour = class)) +
+  geom_point() +
+  labs(title = "Title",
+       subtitle = "Subtitle",
+       caption = "Source: GGPlot2")
 ```
 
