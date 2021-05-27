@@ -7,10 +7,12 @@
 <!-- badges: end -->
 
 This package stores my custom themes and functions for personal use.
+Currently the only function in this package is `theme_james`, a slightly
+more minimal version of `theme_minimal`.
 
 ## Installation
 
-You can install hare like so:
+You can install `hare` like so:
 
 ``` r
 devtools::install_github("jamesphare/hare")
@@ -24,8 +26,8 @@ Load the library:
 library(hare)
 ```
 
-Currently the only function in this package is `theme_james`, a slightly
-more minimal version of `theme_minimal`.
+`theme_james()` may be added to a GGPlot object or set generally using
+`theme_set()`.
 
 ## Example
 
