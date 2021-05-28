@@ -2,10 +2,16 @@
 % Please edit documentation in R/theme_james.R
 \name{theme_james}
 \alias{theme_james}
-\title{Custom GGPlot2 Theme}
+\title{Theme James}
 \usage{
 theme_james()
 }
 \description{
-My custom GGPlot2 Theme
+My custom GGPlot2 theme
+}
+\examples{
+library(ggplot2)
+ggplot(mpg, aes(displ, hwy, colour = class)) + 
+geom_point() + 
+theme_james()
 }
